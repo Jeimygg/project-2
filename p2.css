@@ -1,0 +1,91 @@
+
+:root {
+    --white: #fafafb;
+    --blush:#B24592;
+    --pink:#F15F79;
+    --pink-light:#ee9ca7;
+}
+
+body{
+    background: #B24592;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F15F79, #B24592);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F15F79, #B24592);
+
+}
+/* perfil parte de arriba */ 
+ h1{
+color:var(--white)
+}
+
+#fecha{
+ color: var(--white);
+letter-spacing:1px;
+padding: 50px 0 5px 0;
+}
+  
+.agregar-tarea{
+ background-color: var(--white);
+ border-radius:15px ;
+ height: 70px;
+ display: flex;
+ align-items: center;
+ gap: 70px;
+
+}
+.agregar-tarea input{
+width: 100%;
+height: 70%;
+border-radius: 8px;
+border-color:var(--pink-light);
+background-color: var(--white);
+}
+.agregar-tarea i{
+font-size: 40px;
+color:var(--blush)
+}
+ .agregar-tarea i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+ }
+
+.container{
+    width: 400px;
+     height: 600px;
+  margin:0 auto;
+max-width: 80%;
+}
+.agregar-tarea input::placeholder{
+font-size:1.1rem;
+color:gray
+}
+/* seccion de tareas */
+.seccion-tarea h3{
+    color: var(--white);
+    margin-bottom: 20px;
+}
+.seccion-tarea li{
+display: flex;
+background-color: var(--white);
+border-radius:15px;
+padding: 10px;
+align-items:center;
+justify-content:space-between;
+margin: 5px 0;
+}
+
+.seccion-tarea i{
+font-size: 20px;
+color: var(--blush);
+}
+.seccion-tarea i:hover{
+    cursor: pointer;
+    color: var(--pink);
+    transform: scale(1.1);
+}
+.seccion-tarea > ul p{
+font-size: 1.2rem;
+}
+ .line-trought{
+    text-decoration:line-through;
+    color: var(--blush);
+ }
