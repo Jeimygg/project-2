@@ -12,8 +12,7 @@ background: -webkit-linear-gradient(to right, #F15F79, #B24592);  /* Chrome 10-2
 background: linear-gradient(to right, #F15F79, #B24592);
 
 }
-/* perfil parte de arriba */ 
- h1{
+ .perfil h1{
 color:var(--white)
 }
 
@@ -88,4 +87,14 @@ font-size: 1.2rem;
  .line-trought{
     text-decoration:line-through;
     color: var(--blush);
- }
+ } 
+#circle{
+    border-radius: 50px;
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+ h2{
+    color: var(--white);
+}
